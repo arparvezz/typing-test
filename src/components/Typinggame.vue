@@ -51,7 +51,7 @@ function reset(){
         
     </div>
     <div v-if="showAlert" class="w-full h-[100vh] bg-green-800 opacity-80 p-10 flex flex-col justify-center items-center">
-        <p class="text-xl">You correctly typed <span class="text-2xl text-green-300" v-text="correctWord"></span> letter/minute, But you also mistyped <span v-text="wrongWord" class="text-2xl text-red-300" ></span> letter.</p><br>
+        <p class="text-xl">You correctly typed <span class="text-2xl text-green-300" v-text="correctWord"></span> letter/minute<span v-show="wrongWord > 0">, But you also mistyped <span v-text="wrongWord" class="text-2xl text-red-300" ></span> letter.</span></p><br>
         <button class="px-4 py-2 bg-red-700 rounded hover:bg-red-800" @click="reset()">Reset X</button>
     </div>
 </template>

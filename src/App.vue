@@ -12,21 +12,7 @@ import Typinggame from './components/Typinggame.vue';
 </script>
 
 <template>
-  <!-- <div class="container mx-auto">
-    <button @click="con = !con" class="bg-blue-600 px-4 py-2 rounded mb-4 hover:bg-blue-700 transition duration-300">Toggle Element</button>
-    <h3 v-if="con" :class="con ? 'bg-green-600': '' ">Heading: Hello Vue</h3>
-    <p v-else="con" :class="!con ? 'bg-red-600': '' ">Paragraph: Lorem ipsum dolor sit amet.</p>
 
-    
-  </div> -->
-  <!-- <Accordion/> -->
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
-  <!-- <Condition/> -->
-  <!-- <Tailtest/> -->
-  <!-- <Vuetest/> -->
-  <!-- <Loop/> -->
-  <!-- <Quiz/> -->
-  <!-- <NewQuiz/> -->
   <Typinggame/>
 </template>
 
